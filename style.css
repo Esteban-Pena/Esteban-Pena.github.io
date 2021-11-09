@@ -1,0 +1,55 @@
+body{
+    background-color: gray;
+
+  }
+
+
+  .formstyle{
+      width:60%;
+      margin-left: 35%;
+    
+
+
+  }
+
+.textview{
+    width: 50%;
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 26px;
+  }
+
+  .calc-button  {
+    background: rgba(0, 0, 0, 0.5); /* light background with opacity 50% */
+    border: 1px solid #111; /* black border */
+    padding: 20px;
+    color: #EEE; /* white text */
+    border-radius: 5px; /* rounded corners */
+    font-size: 22px; /* larger fonts */
+    cursor: pointer; /* make it look clickable */
+  }
+
+
+  .calculator-buttons{
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: gray;
+    padding: 20px;
+    grid-gap: 15px;
+  }
+
+.is-zero{
+    grid-column: span 3;
+    background-color: teal;
+}
+.is-clear   {
+  grid-column: span 3;
+  background-color: crimson;
+}
+
+
+  
